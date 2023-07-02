@@ -1,6 +1,11 @@
 {
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "ratio": "cpp",
+        "vector": "cpp",
+        "random": "cpp",
+        "unordered_set": "cpp",
+        "xhash": "cpp"
     },
     "cSpell.words": [
         "leetcode"
