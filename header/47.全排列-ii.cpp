@@ -5,11 +5,12 @@
  */
 
 // @lc code=start
-#define RUN_LOCAL
 
-#ifdef RUN_LOCAL
-#include "../header/common.h"
+#ifdef RUN_IN_LOCAL
+#include "common.h"
 #endif
+#include <bits/stdc++.h>
+using namespace std;
 
 class Solution {
 public:
@@ -43,7 +44,7 @@ public:
         }
     }
 
-#ifdef RUN_LOCAL
+#ifdef RUN_IN_LOCAL
     void test(){
         cout << permuteUnique({1,1,2});
     }

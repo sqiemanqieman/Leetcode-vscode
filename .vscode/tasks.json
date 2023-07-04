@@ -9,7 +9,8 @@
                 "/EHsc",
                 "/nologo",
                 "/Fe${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe",
-                "${file}"
+                // "${file}"
+                "${workspaceFolder}\\source\\main.cpp" // hard code the file to compile
             ],
             "options": {
                 "cwd": "${fileDirname}"

@@ -6,7 +6,7 @@
                 "${workspaceFolder}/**",
                 "${vcpkgRoot}/x64-windows/include",
                 "${workspaceFolder}",
-                "C:/Users/qiema/.leetcode/header"
+                "C:/Users/qiema/.leetcode/header",
             ],
             "defines": [
                 "_DEBUG",
