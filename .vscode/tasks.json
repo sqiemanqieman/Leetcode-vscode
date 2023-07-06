@@ -8,6 +8,7 @@
                 "/Zi",
                 "/EHsc",
                 "/nologo",
+                "/std:c++17",
                 "/Fe${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe",
                 // "${file}"
                 "${workspaceFolder}\\source\\main.cpp" // hard code the file to compile

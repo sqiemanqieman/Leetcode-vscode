@@ -1,9 +1,27 @@
 #pragma once
 #define RUN_IN_LOCAL
 
-#define problem 31
+#define problem 37
 
-#if problem == 31
+#if problem == 37
+#include "../header/714.买卖股票的最佳时机含手续费.cpp"
+
+#elif problem ==36
+#include "../header/309.最佳买卖股票时机含冷冻期.cpp"
+
+#elif problem == 35
+#include "../header/188.买卖股票的最佳时机-iv.cpp"
+
+#elif problem == 34
+#include "../header/123.买卖股票的最佳时机-iii.cpp"
+
+#elif problem == 33
+#include "../header/122.买卖股票的最佳时机-ii.cpp"
+
+#elif problem == 32
+#include "../header/121.买卖股票的最佳时机.cpp"
+
+#elif problem == 31
 #include "../header/518.零钱兑换-ii.cpp"
 
 #elif problem == 30

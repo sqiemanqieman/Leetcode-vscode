@@ -39,7 +39,8 @@
         "valarray": "cpp",
         "xiosbase": "cpp",
         "xlocnum": "cpp",
-        "*.inc": "cpp"
+        "*.inc": "cpp",
+        "xutility": "cpp"
     },
     "cSpell.words": [
         "leetcode"

@@ -5,6 +5,7 @@
  */
 
 // @lc code=start
+
 #ifdef RUN_IN_LOCAL
 #include "common.h"
 #endif
