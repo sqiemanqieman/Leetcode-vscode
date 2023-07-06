@@ -1,9 +1,12 @@
 #pragma once
 #define RUN_IN_LOCAL
 
-#define problem 37
+#define problem 38
 
-#if problem == 37
+#if problem == 38
+#include "../header/376.摆动序列.cpp"
+
+#elif problem == 37
 #include "../header/714.买卖股票的最佳时机含手续费.cpp"
 
 #elif problem ==36
