@@ -1,9 +1,12 @@
 #pragma once
 #define RUN_IN_LOCAL
 
-#define problem 38
+#define problem 39
 
-#if problem == 38
+#if problem == 39
+#include "../header/459.重复的子字符串.cpp"
+
+#elif problem == 38
 #include "../header/376.摆动序列.cpp"
 
 #elif problem == 37
